@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(195,217,117,1) 0%, rgba(127,72,171,1) 43%, rgba(194,33,67,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Notable', sans-serif;
+    color: ghostwhite;
+    max-width: 1000px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 50px;
+    flex: 0 0 100%;
+}
+
+.balloon {
+    font-size: 40px;
+    line-height: 1;
+}
